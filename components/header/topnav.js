@@ -26,11 +26,11 @@ class TopNav extends Component {
                             </Nav.Link>
                             <ul className='user-dropdown me-0'>
                                 <li>
-                                    <a className={`${topnavStyles.navLink} d-flex align-items-end`} href="#">
+                                    <a className={`${topnavStyles.navLink} d-flex align-items-end m-0`} href="#">
                                         <img src="../../icons/navicons-login.png" />
                                         Adeel
                                     </a>
-                                    <ul class="dropdown">
+                                    <ul className="dropdown">
                                         <li><a href="#">Logout</a></li>
                                     </ul>
                                 </li>

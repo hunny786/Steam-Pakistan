@@ -277,8 +277,7 @@ footer p {
 	color: #fff;
 	display: block;
 	float: left;
-	padding: 1rem;
-  padding-left: 0;
+	padding: 1rem 0 1rem 0;
 	position: relative;
 	text-decoration: none;
   transition-duration: 0.5s;
