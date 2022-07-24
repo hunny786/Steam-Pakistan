@@ -267,8 +267,7 @@ footer p {
   text-decoration: none;
 }
 
-.user-dropdown ul {
-  background: darkorange;
+.user-dropdown {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
@@ -276,44 +275,52 @@ footer p {
 
 .user-dropdown li {
 	color: #fff;
-  background: darkorange;
 	display: block;
 	float: left;
 	padding: 1rem;
+  padding-left: 0;
 	position: relative;
 	text-decoration: none;
   transition-duration: 0.5s;
 }
   
-.user-dropdown li a {
-  color: #fff;
+.user-dropdown a {
+  text-decoration: none;    
+  color: #d3d3d3;
 }
 
 .user-dropdown li:hover {
-	background: red;
 	cursor: pointer;
 }
 
-.user-dropdown ul li ul {
-	background: orange;
-	visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-	position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-	left: 0;
-  display: none;
+.user-dropdown li a:hover {
+  color: #fff;
 }
 
-.user-dropdown ul li:hover > ul,
-.user-dropdown ul li ul:hover {
+.user-dropdown li ul {
+  background-color: #2a2b3f;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 12px;
+  padding: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 70%);
+}
+
+.user-dropdown li:hover > ul, 
+.user-dropdown li ul:hover {
   visibility: visible;
   opacity: 1;
   display: block;
+  z-index: 3;
+  top: 42px;
 }
 
-.user-dropdown ul li ul li {
-	clear: both;
+.user-dropdown li ul li {
+  clear: both;
+  padding: 1rem;
   width: 100%;
 }
