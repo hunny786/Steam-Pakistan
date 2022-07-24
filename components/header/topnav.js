@@ -30,7 +30,7 @@ class TopNav extends Component {
                                         <img src="../../icons/navicons-login.png" />
                                         Adeel
                                     </a>
-                                    <ul class="dropdown">
+                                    <ul className="dropdown">
                                         <li><a href="#">Logout</a></li>
                                     </ul>
                                 </li>
