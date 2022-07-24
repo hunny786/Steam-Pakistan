@@ -24,21 +24,17 @@ class TopNav extends Component {
                                 <img src="../../icons/navicons-register.png" />
                                 Register
                             </Nav.Link>
-                            <Nav.Link className={`${topnavStyles.navLink} d-flex align-items-end user-dropdown me-0`} href="#">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <img src="../../icons/navicons-login.png" />
-                                            Adeel
-                                        </a>
-                                        <ul className="dropdown">
-                                            <li><a href="#">Sub-1</a></li>
-                                            <li><a href="#">Sub-2</a></li>
-                                            <li><a href="#">Sub-3</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </Nav.Link>
+                            <ul className='user-dropdown me-0'>
+                                <li>
+                                    <a className={`${topnavStyles.navLink} d-flex align-items-end`} href="#">
+                                        <img src="../../icons/navicons-login.png" />
+                                        Adeel
+                                    </a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Logout</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </Nav>
                     </Container>
                 </Navbar>
