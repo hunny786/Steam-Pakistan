@@ -1,0 +1,9 @@
+.contactUsBg {
+    background-image: url("../../public/images/bg-contact.jpg");
+    background-size: 132%;
+    background-position: center;
+}
+
+.formContactUs {
+    color: #fff
+}

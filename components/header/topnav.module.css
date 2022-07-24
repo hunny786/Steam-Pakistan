@@ -1,0 +1,15 @@
+.navLink {
+    color: #d3d3d3;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 0 2px !important;
+    margin-right: 20px;
+}
+
+.navLink:hover {
+    color: #fff;
+}
+
+.navbarTopnav {
+    background-color: #2a2b3f;
+} 

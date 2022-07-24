@@ -1,0 +1,6 @@
+.thumbnailmg::after {
+    content: "";
+    background-image: url('../../public/images/guide-right.png');
+    position: absolute;
+    right: 0;
+}

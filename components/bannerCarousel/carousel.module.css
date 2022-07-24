@@ -1,0 +1,57 @@
+.slide {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 434px;
+}
+
+.slide1 {
+    background-image: url("../../public/images/slide-1.jpg");
+}
+
+.slide2 {
+    background-image: url("../../public/images/teahub.io-graphic-wallpaper-145872.jpg");
+}
+
+.slide3 {
+    background-image: url("../../public/images/QKzilE.jpg");
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgb(0 3 89 / 20%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.bannerContent {
+    width: 460px;
+    position: absolute;
+    transform: translate(0px, 70%);
+    z-index: 2;
+    color: #fff;
+    background-color: rgb(0 2 62 / 62%);
+    padding: 30px 40px;
+}
+
+.h1 {
+    font-weight: 900;
+    font-size: 47px;
+}
+
+.p {
+    font-size: 13px;
+    color: #fff;
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .bannerContent {
+        width: 100%;
+        left: 0;
+    }
+}

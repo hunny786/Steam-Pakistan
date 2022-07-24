@@ -1,0 +1,27 @@
+.featuredImgWrapper {
+    text-align: center;
+    position: relative;
+}
+
+.featuredImgThumbnail {
+    position: absolute;
+    left: 255px;
+    top: 31px;
+}
+
+@media only screen and (max-width: 768px) {
+    .bannerContent {
+        width: 100%;
+        left: 0;
+    }
+    .featuredImgWrapper > img {
+        width: 100%;
+    }
+
+    .featuredImgWrapper .featuredImgThumbnail {
+        width: 100%;
+        width: 78.5%;
+        left: 37px;
+        top: 11px;
+    }
+}

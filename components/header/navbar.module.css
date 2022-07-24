@@ -1,0 +1,19 @@
+.navLink {
+    padding: 25px !important;
+}
+
+.navLink:last-child {
+    padding-right: 0 !important;
+}
+
+.sticky-top .brandImg {
+    width: 60%;
+}
+
+.sticky-top .navLink {
+    padding: 0 25px !important;
+}
+
+.sticky-top .navLink:last-child {
+    padding-right: 0 !important;
+}
