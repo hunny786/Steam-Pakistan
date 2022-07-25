@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import Head from 'next/head';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/layout/layout';
-import '../styles/AdminSideNav.css'
+import '../styles/adminSideNav.css'
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps, ...appProps }) {
