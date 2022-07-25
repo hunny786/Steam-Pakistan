@@ -123,14 +123,19 @@ footer p {
   vertical-align: text-top;
 }
 
-.carousel-control-prev {
+.carousel-control-prev, 
+.carousel-control-next {
+  z-index: 2;
+}
+
+.carousel-custom-indicators .carousel-control-prev {
   left: auto;
   right: 11%;
   top: -115%;
   width: 1%;
 }
 
-.carousel-control-next {
+.carousel-custom-indicators .carousel-control-next {
   top: -115%;
   width: 1%;
   right: 7%;
@@ -246,11 +251,11 @@ footer p {
   .sticky-top .navbar-sticky .nav-link {
     padding: 10px 25px !important;
   }
-  .carousel-control-prev {
+  .carousel-custom-indicators .carousel-control-prev {
     right: 20%;
     top: -102%;
   }
-  .carousel-control-next {
+  .carousel-custom-indicators .carousel-control-next {
     top: -102%;
     right: 7%;
   }   

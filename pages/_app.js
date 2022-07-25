@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>STEM</title>
         <link rel="stylesheet" href="https://use.typekit.net/jyt4vtq.css" />
+        <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
       </Head>
       <Layout>
         <Component {...pageProps} />

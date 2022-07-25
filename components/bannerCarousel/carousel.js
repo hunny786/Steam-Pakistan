@@ -6,7 +6,7 @@ class CarouselView extends Component {
   render() {
     return (
       <Fragment>
-        <div className="container position-relative">
+        <div id="banner" className="container position-relative">
           <div className={carouselStyles.bannerContent}>
               <h1 className={carouselStyles.h1}>STEM CLUB</h1>
               <p className={carouselStyles.p}>
@@ -16,14 +16,11 @@ class CarouselView extends Component {
               </p>
           </div>
         </div>
-        <Carousel controls={false} indicators={false}>
+        <Carousel>
           <Carousel.Item className={`${carouselStyles.slide} ${carouselStyles.slide1}`}>
             <div className={carouselStyles.overlay}></div>
           </Carousel.Item>
           <Carousel.Item className={`${carouselStyles.slide} ${carouselStyles.slide2}`}>
-            <div className={carouselStyles.overlay}></div>
-          </Carousel.Item>
-          <Carousel.Item className={`${carouselStyles.slide} ${carouselStyles.slide3}`}>
             <div className={carouselStyles.overlay}></div>
           </Carousel.Item>
         </Carousel>

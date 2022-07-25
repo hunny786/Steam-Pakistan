@@ -5,7 +5,7 @@ class ContactUs extends Component {
     state = {  } 
     render() { 
         return (
-            <div className={contactUsStyles.contactUsBg}>
+            <div id='contact' className={contactUsStyles.contactUsBg}>
                 <div className='container py-5'>
                     <h2 className='heading white'>Contact Us</h2>
                     <form className={contactUsStyles.formContactUs}>
