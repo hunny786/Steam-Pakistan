@@ -1,9 +1,9 @@
 import StemClubGuidesDetail from "../../components/stemClubGuidesDetail/stemClubGuidesDetail";
 
-function ClubGuidesDetail() {
+function ClubGuidesDetailView() {
     return (
         <StemClubGuidesDetail></StemClubGuidesDetail>
     );
   }
   
-  export default ClubGuidesDetail;
+  export default ClubGuidesDetailView;
