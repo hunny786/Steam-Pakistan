@@ -23,111 +23,111 @@ class videoTutorial extends Component {
                         <Carousel.Item>
                             <div className='row pt-5'>
                                 <div className='col-12 col-sm-4'>
-                                    <div className='video text-center text-sm-start mb-4'>
+                                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/wbPPdgSnN2Q" className='video text-center text-sm-start mb-4'>
                                         <p className='time-stamp'>STEM - 18 May 2022</p>
                                         <div className='thumbnail'>
                                             <img className='thumbnail-img' src="../../images/tutorial-thumb-1.jpg"/>
-                                            <a className='play-btn' href="https://www.youtube.com/embed/wbPPdgSnN2Q" target='_blank' rel='noreferrer'><img className='me-2' src='../../icons/play.png' />Play video</a>
+                                            <div className='play-btn'><img className='me-2' src='../../icons/play.png' />Play video</div>
                                         </div>
                                         <p className='title pt-4 mb-0'>What is STEM Education?</p>
-                                        <a href='https://www.youtube.com/embed/wbPPdgSnN2Q' className='watch-btn' target='_blank' rel='noreferrer'>Watch <span className='chevron'>›</span></a>
-                                    </div>
+                                        <div className='watch-btn'>Watch <span className='chevron'>›</span></div>
+                                    </a>
                                 </div>
                                 <div className='col-12 col-sm-4'>
-                                    <div className='video text-center text-sm-start mb-4'>
+                                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/O1I9yZZAqbE" className='video text-center text-sm-start mb-4'>
                                         <p className='time-stamp'>STEM - 18 May 2022</p>
                                         <div className='thumbnail'>
                                             <img className='thumbnail-img' src="../../images/tutorial-thumb-2.jpg"/>
-                                            <a className='play-btn' href="https://www.youtube.com/embed/O1I9yZZAqbE" target='_blank' rel='noreferrer'><img className='me-2' src='../../icons/play.png' />Play video</a>
+                                            <div className='play-btn'><img className='me-2' src='../../icons/play.png' />Play video</div>
                                         </div>
                                         <p className='title pt-4 mb-0'>What are STEM Clubs?</p>
-                                        <a href='https://www.youtube.com/embed/O1I9yZZAqbE' className='watch-btn' target='_blank' rel='noreferrer'>Watch <span className='chevron'>›</span></a>
-                                    </div>
+                                        <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
+                                    </a>
                                 </div>
                                 <div className='col-12 col-sm-4'>
-                                    <div className='video text-center text-sm-start'>
+                                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/jMgsLqRTjIk" className='video text-center text-sm-start'>
                                         <p className='time-stamp'>STEM - 18 May 2022</p>
                                         <div className='thumbnail'>
                                             <img className='thumbnail-img' src="../../images/tutorial-thumb-3.jpg"/>
-                                            <a className='play-btn' href="https://www.youtube.com/embed/jMgsLqRTjIk" target='_blank' rel='noreferrer'><img className='me-2' src='../../icons/play.png' />Play video</a>
+                                            <div className='play-btn'><img className='me-2' src='../../icons/play.png' />Play video</div>
                                         </div>
                                         <p className='title pt-4 mb-0'>How to conduct STEM Club Safeer Sessions?</p>
-                                        <a href='https://www.youtube.com/embed/jMgsLqRTjIk' className='watch-btn' target='_blank' rel='noreferrer'>Watch <span className='chevron'>›</span></a>
-                                    </div>
+                                        <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
+                                    </a>
                                 </div>
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
                             <div className='row pt-5'>
                                 <div className='col-12 col-sm-4'>
-                                    <div className='video text-center text-sm-start mb-4'>
+                                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/wbPPdgSnN2Q" className='video text-center text-sm-start mb-4'>
                                         <p className='time-stamp'>STEM - 18 May 2022</p>
                                         <div className='thumbnail'>
                                             <img className='thumbnail-img' src="../../images/tutorial-thumb-1.jpg"/>
-                                            <a className='play-btn' href="https://www.youtube.com/embed/wbPPdgSnN2Q" target='_blank' rel='noreferrer'><img className='me-2' src='../../icons/play.png' />Play video</a>
+                                            <div className='play-btn'><img className='me-2' src='../../icons/play.png' />Play video</div>
                                         </div>
                                         <p className='title pt-4 mb-0'>What is STEM Education?</p>
-                                        <a href='https://www.youtube.com/embed/wbPPdgSnN2Q' className='watch-btn' target='_blank' rel='noreferrer'>Watch <span className='chevron'>›</span></a>
-                                    </div>
+                                        <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
+                                    </a>
                                 </div>
                                 <div className='col-12 col-sm-4'>
-                                    <div className='video text-center text-sm-start mb-4'>
+                                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/O1I9yZZAqbE" className='video text-center text-sm-start mb-4'>
                                         <p className='time-stamp'>STEM - 18 May 2022</p>
                                         <div className='thumbnail'>
                                             <img className='thumbnail-img' src="../../images/tutorial-thumb-2.jpg"/>
-                                            <a className='play-btn' href="https://www.youtube.com/embed/O1I9yZZAqbE" target='_blank' rel='noreferrer'><img className='me-2' src='../../icons/play.png' />Play video</a>
+                                            <div className='play-btn'><img className='me-2' src='../../icons/play.png' />Play video</div>
                                         </div>
                                         <p className='title pt-4 mb-0'>What are STEM Clubs?</p>
-                                        <a href='https://www.youtube.com/embed/O1I9yZZAqbE' className='watch-btn' target='_blank' rel='noreferrer'>Watch <span className='chevron'>›</span></a>
-                                    </div>
+                                        <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
+                                    </a>
                                 </div>
                                 <div className='col-12 col-sm-4'>
-                                    <div className='video text-center text-sm-start'>
+                                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/jMgsLqRTjIk" className='video text-center text-sm-start'>
                                         <p className='time-stamp'>STEM - 18 May 2022</p>
                                         <div className='thumbnail'>
                                             <img className='thumbnail-img' src="../../images/tutorial-thumb-3.jpg"/>
-                                            <a className='play-btn' href="https://www.youtube.com/embed/jMgsLqRTjIk" target='_blank' rel='noreferrer'><img className='me-2' src='../../icons/play.png' />Play video</a>
+                                            <div className='play-btn'><img className='me-2' src='../../icons/play.png' />Play video</div>
                                         </div>
                                         <p className='title pt-4 mb-0'>How to conduct STEM Club Safeer Sessions?</p>
-                                        <a href='https://www.youtube.com/embed/jMgsLqRTjIk' className='watch-btn' target='_blank' rel='noreferrer'>Watch <span className='chevron'>›</span></a>
-                                    </div>
+                                        <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
+                                    </a>
                                 </div>
                             </div>
                         </Carousel.Item>
                         <Carousel.Item>
                             <div className='row pt-5'>
                                 <div className='col-12 col-sm-4'>
-                                    <div className='video text-center text-sm-start mb-4'>
+                                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/wbPPdgSnN2Q" className='video text-center text-sm-start mb-4'>
                                         <p className='time-stamp'>STEM - 18 May 2022</p>
                                         <div className='thumbnail'>
                                             <img className='thumbnail-img' src="../../images/tutorial-thumb-1.jpg"/>
-                                            <a className='play-btn' href="https://www.youtube.com/embed/wbPPdgSnN2Q" target='_blank' rel='noreferrer'><img className='me-2' src='../../icons/play.png' />Play video</a>
+                                            <div className='play-btn'><img className='me-2' src='../../icons/play.png' />Play video</div>
                                         </div>
                                         <p className='title pt-4 mb-0'>What is STEM Education?</p>
-                                        <a href='https://www.youtube.com/embed/wbPPdgSnN2Q' className='watch-btn' target='_blank' rel='noreferrer'>Watch <span className='chevron'>›</span></a>
-                                    </div>
+                                        <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
+                                    </a>
                                 </div>
                                 <div className='col-12 col-sm-4'>
-                                    <div className='video text-center text-sm-start mb-4'>
+                                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/O1I9yZZAqbE" className='video text-center text-sm-start mb-4'>
                                         <p className='time-stamp'>STEM - 18 May 2022</p>
                                         <div className='thumbnail'>
                                             <img className='thumbnail-img' src="../../images/tutorial-thumb-2.jpg"/>
-                                            <a className='play-btn' href="https://www.youtube.com/embed/O1I9yZZAqbE" target='_blank' rel='noreferrer'><img className='me-2' src='../../icons/play.png' />Play video</a>
+                                            <div className='play-btn'><img className='me-2' src='../../icons/play.png' />Play video</div>
                                         </div>
                                         <p className='title pt-4 mb-0'>What are STEM Clubs?</p>
-                                        <a href='https://www.youtube.com/embed/O1I9yZZAqbE' className='watch-btn' target='_blank' rel='noreferrer'>Watch <span className='chevron'>›</span></a>
-                                    </div>
+                                        <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
+                                    </a>
                                 </div>
                                 <div className='col-12 col-sm-4'>
-                                    <div className='video text-center text-sm-start'>
+                                    <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/jMgsLqRTjIk" className='video text-center text-sm-start'>
                                         <p className='time-stamp'>STEM - 18 May 2022</p>
                                         <div className='thumbnail'>
                                             <img className='thumbnail-img' src="../../images/tutorial-thumb-3.jpg"/>
-                                            <a className='play-btn' href="https://www.youtube.com/embed/jMgsLqRTjIk" target='_blank' rel='noreferrer'><img className='me-2' src='../../icons/play.png' />Play video</a>
+                                            <div className='play-btn'><img className='me-2' src='../../icons/play.png' />Play video</div>
                                         </div>
                                         <p className='title pt-4 mb-0'>How to conduct STEM Club Safeer Sessions?</p>
-                                        <a href='https://www.youtube.com/embed/jMgsLqRTjIk' className='watch-btn' target='_blank' rel='noreferrer'>Watch <span className='chevron'>›</span></a>
-                                    </div>
+                                        <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
+                                    </a>
                                 </div>
                             </div>
                         </Carousel.Item>

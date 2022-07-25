@@ -29,9 +29,6 @@
     .featuredImgWrapper .featuredImgThumbnail {
         left: 105px;
     }
-    .play-btn {
-        right: 7%;
-    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -39,8 +36,5 @@
         width: 70%;
         left: 164px;
         top: 31px;
-    }
-    .play-btn {
-        right: 7.8%;
     }
 }

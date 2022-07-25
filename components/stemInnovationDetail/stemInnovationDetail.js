@@ -1,21 +1,12 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
-import stemInnovationStyles from './stemInnovation.module.css'
 
-class StemInnovation extends Component {
+class InnovationDetailView extends Component {
     state = {  } 
     render() { 
         return (
-            <div id='innovation' className='bg-dark-grey'>
+            <div className='bg-dark-grey'>
                 <div className='container py-5'>
                     <h2 className='heading white mb-5'>STEM Innovation</h2>
-                    <div className={stemInnovationStyles.featuredImgWrapper}>
-                        <img src='../../images/innov-video-featured-frame.png' />
-                        <a href="https://www.youtube.com/embed/-exHtFarKXA" target='_blank' rel='noreferrer'>
-                            <img className={stemInnovationStyles.featuredImgThumbnail} src='../../images/Innov-thumb-featured.jpg' />
-                        </a>
-                        <p className='title white'>How to engage entire school in STEM Club related activities?</p>
-                    </div>
                     <div className='row pt-5'>
                         <div className='col-12 col-sm-4'>
                             <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=uVN9TiAudBM" className='video text-center text-sm-start mb-4'>
@@ -86,17 +77,10 @@ class StemInnovation extends Component {
                             </a>
                         </div>
                     </div>
-                    <div className='row pt-5'>
-                        <div className='col-12 text-center'>
-                            <Link href='/innovationDetail/'>
-                                <a className="btn btn-outline-dark btn-hollow-light">View All</a>
-                            </Link>
-                        </div>
-                    </div>
                 </div>
             </div>
         );
     }
 }
  
-export default StemInnovation;
+export default InnovationDetailView;

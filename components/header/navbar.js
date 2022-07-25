@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
+import Link from 'next/dist/client/link';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
@@ -8,29 +9,33 @@ const NavbarView = () => {
         <Fragment>
             <Navbar className='navbar-sticky' bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home"><img className="brand-img" src="../../images/logo-web-large.png" /></Navbar.Brand>
+                    <Link href="./" passHref>
+                        <Navbar.Brand href=""><img className="brand-img" src="../../images/logo-web-large.png" /></Navbar.Brand>
+                    </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
                         <Nav>
-                            <Nav.Link className="nav-link active" href="#banner">
-                                Home
-                            </Nav.Link>
-                            <Nav.Link className="nav-link" href="#about">
+                            <Link href="./" passHref>
+                                <Nav.Link>
+                                    Home
+                                </Nav.Link>
+                            </Link>
+                            <Nav.Link href="#about">
                                 About
                             </Nav.Link>
-                            <Nav.Link className="nav-link" href="#tutorials">
+                            <Nav.Link href="#tutorials">
                                 Tutorials
                             </Nav.Link>
-                            <Nav.Link className="nav-link" href="#innovation">
+                            <Nav.Link href="#innovation">
                                 Innovation
                             </Nav.Link>
-                            <Nav.Link className="nav-link" href="#guides">
+                            <Nav.Link href="#guides">
                                 Guides
                             </Nav.Link>
-                            <Nav.Link className="nav-link" href="#practicals">
+                            <Nav.Link href="#practicals">
                                 Practicals
                             </Nav.Link>
-                            <Nav.Link className="nav-link" href="#contact">
+                            <Nav.Link href="#contact">
                                 Contact
                             </Nav.Link>
                         </Nav>

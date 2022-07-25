@@ -1,9 +1,16 @@
 .contactUsBg {
-    background-image: url("../../public/images/bg-contact.jpg");
+    background-image: url(/_next/static/media/bg-contact.afe0f20d.jpg);
     background-size: 132%;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .formContactUs {
     color: #fff
+}
+
+@media only screen and (max-width: 768px) {
+    .contactUsBg {
+        background-size: cover;
+    }
 }
