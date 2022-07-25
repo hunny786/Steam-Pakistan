@@ -29,7 +29,7 @@ class StemClubGuides extends Component {
                                     </div>
                                     <p className='title book pt-4 mb-0'>Stem Clubs Guide</p>
                                     <p className='title book py-2 mb-0'>(English)</p>
-                                    <a href='https://drive.google.com/file/d/1HoG8OXtgbnVGfr-Qpsm1E5Yew8lP91tm/view?usp=sharing' target='_blank' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
+                                    <a href='https://drive.google.com/file/d/1HoG8OXtgbnVGfr-Qpsm1E5Yew8lP91tm/view?usp=sharing' target='_blank' rel='noreferrer' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
                                 </div>
                             </div>
                             <div className='col-12 col-sm-3'>
@@ -40,7 +40,7 @@ class StemClubGuides extends Component {
                                     </div>
                                     <p className='title book pt-4 mb-0'>Stem Clubs Guide</p>
                                     <p className='title book py-2 mb-0'>(English)</p>
-                                    <a href='https://drive.google.com/file/d/1VbRZuTylDHBUkXoaF3g9Ke1RuY36zWyA/view?usp=sharing' target='_blank' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
+                                    <a href='https://drive.google.com/file/d/1VbRZuTylDHBUkXoaF3g9Ke1RuY36zWyA/view?usp=sharing' target='_blank' rel='noreferrer' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
                                 </div>
                             </div>
                             <div className='col-12 col-sm-3'>
@@ -51,7 +51,7 @@ class StemClubGuides extends Component {
                                     </div>
                                     <p className='title book pt-4 mb-0'>Stem Clubs Guide</p>
                                     <p className='title book py-2 mb-0'>(English)</p>
-                                    <a href='https://drive.google.com/file/d/12VZcfRsFXikBwe3hhdR2_5x9ReYDkrrI/view?usp=sharing' target='_blank' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
+                                    <a href='https://drive.google.com/file/d/12VZcfRsFXikBwe3hhdR2_5x9ReYDkrrI/view?usp=sharing' target='_blank' rel='noreferrer' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
                                 </div>
                             </div>
                             <div className='col-12 col-sm-3'>
@@ -62,7 +62,7 @@ class StemClubGuides extends Component {
                                     </div>
                                     <p className='title book pt-4 mb-0'>Stem Clubs Guide</p>
                                     <p className='title book py-2 mb-0'>(English)</p>
-                                    <a href='https://drive.google.com/file/d/10P-OA05IBPgc_zGZKL1rbVwN3RXt7Pr_/view?usp=sharing' target='_blank' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
+                                    <a href='https://drive.google.com/file/d/10P-OA05IBPgc_zGZKL1rbVwN3RXt7Pr_/view?usp=sharing' target='_blank' rel='noreferrer' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ class StemClubGuides extends Component {
                                     </div>
                                     <p className='title book pt-4 mb-0'>Stem Clubs Guide</p>
                                     <p className='title book py-2 mb-0'>(Urdu)</p>
-                                    <a href='https://drive.google.com/file/d/1IWgpPNYNY6ZAfJJ8OwJ-r4pBLEAiUq3u/view?usp=sharing' target='_blank' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
+                                    <a href='https://drive.google.com/file/d/1IWgpPNYNY6ZAfJJ8OwJ-r4pBLEAiUq3u/view?usp=sharing' target='_blank' rel='noreferrer' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
                                 </div>
                             </div>
                             <div className='col-12 col-sm-3'>
@@ -88,7 +88,7 @@ class StemClubGuides extends Component {
                                     </div>
                                     <p className='title book pt-4 mb-0'>Stem Clubs Guide</p>
                                     <p className='title book py-2 mb-0'>(Urdu)</p>
-                                    <a href='https://drive.google.com/file/d/1tL2G4Z_4ueG6QNhNPabwgsnUedKOFXn8/view?usp=sharing' target='_blank' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
+                                    <a href='https://drive.google.com/file/d/1tL2G4Z_4ueG6QNhNPabwgsnUedKOFXn8/view?usp=sharing' target='_blank' rel='noreferrer' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
                                 </div>
                             </div>
                             <div className='col-12 col-sm-3'>
@@ -99,7 +99,7 @@ class StemClubGuides extends Component {
                                     </div>
                                     <p className='title book pt-4 mb-0'>Stem Clubs Guide</p>
                                     <p className='title book py-2 mb-0'>(Urdu)</p>
-                                    <a href='https://drive.google.com/file/d/1YWGTrAW5SWfMHvhPKbDZgv72GNTfRkKX/view?usp=sharing' target='_blank' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
+                                    <a href='https://drive.google.com/file/d/1YWGTrAW5SWfMHvhPKbDZgv72GNTfRkKX/view?usp=sharing' target='_blank' rel='noreferrer' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
                                 </div>
                             </div>
                             <div className='col-12 col-sm-3'>
@@ -110,7 +110,7 @@ class StemClubGuides extends Component {
                                     </div>
                                     <p className='title book pt-4 mb-0'>Stem Clubs Guide</p>
                                     <p className='title book py-2 mb-0'>(Urdu)</p>
-                                    <a href='https://drive.google.com/file/d/16-h6pJ7ywdIgZG20vgrZa6Z_hLlIP-dJ/view?usp=sharing' target='_blank' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
+                                    <a href='https://drive.google.com/file/d/16-h6pJ7ywdIgZG20vgrZa6Z_hLlIP-dJ/view?usp=sharing' target='_blank' rel='noreferrer' className='btn btn-primary read-btn'>Read <span className='chevron'>›</span></a>
                                 </div>
                             </div>
                         </div>
