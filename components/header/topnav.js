@@ -12,11 +12,11 @@ class TopNav extends Component {
                 <Navbar className={`${topnavStyles.navbarTopnav} p-0`} expand="lg">
                     <Container className='justify-content-end'>
                         <Nav className='flex-row align-items-center'>
-                            <Nav.Link className={`${topnavStyles.navLink} d-flex align-items-end`} href="#">
+                            <Nav.Link className={`${topnavStyles.navLink} d-flex align-items-end`} href="https://www.stemclubs.pk/FAQ/FAQs.pdf" target='_blank' rel='referrer'>
                                 <img src="../../icons/navicons-faqs.png" />
                                 FAQs
                             </Nav.Link>
-                            <Nav.Link className={`${topnavStyles.navLink} d-flex align-items-end`} href="#">
+                            <Nav.Link className={`${topnavStyles.navLink} d-flex align-items-end`} href="./resources" target='_blank' rel='referrer'>
                                 <img src="../../icons/navicons-resources.png" />
                                 Resources
                             </Nav.Link>
@@ -40,7 +40,7 @@ class TopNav extends Component {
                 </Navbar>
             </Fragment>
 
-            )
+        )
     }
 }
  

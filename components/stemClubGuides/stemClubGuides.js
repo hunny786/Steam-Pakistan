@@ -1,6 +1,5 @@
 import React, {  Component } from 'react';
 import {Carousel} from 'react-bootstrap';
-import Link from 'next/dist/client/link';
 
 
 class StemClubGuides extends Component {
@@ -111,9 +110,7 @@ class StemClubGuides extends Component {
                 </Carousel>
                 <div className='row pt-5'>
                         <div className='col-12 text-center'>
-                            <Link href='/ClubGuidesDetail/' passHref>
-                                <a type="button" className="btn btn-outline-dark btn-hollow-dark">VIEW ALL</a>
-                            </Link>
+                            <a type="button" className="btn btn-outline-dark btn-hollow-dark" href='/clubGuidesDetail/' target='_blank' rel='noreferrer'>VIEW ALL</a>
                         </div>
                     </div>
             </div>

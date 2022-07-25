@@ -7,9 +7,8 @@
 }
 
 .navLink:hover,
-.navLink:focus,
-.navLink.active {
-    color: #fff !important;
+.navLink:focus {
+    color: #fff;
 }
 
 .navbarTopnav {
