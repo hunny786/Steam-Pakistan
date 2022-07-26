@@ -5,6 +5,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 const NavbarView = () => {
+    // document.querySelector('a.nav-link').addEventListener('click', function () {
+    //     const anchorAttr = this.getAttribute('href');
+    //     console.log(anchorAttr);
+    //     //const scrollEvent = anchorAttr.getBoundingClientRect().top + window.pageYOffset - 60;
+    //     //window.scrollTo({top: scrollEvent, behavior: 'smooth'});
+    // });
+
     return ( 
         <Fragment>
             <Navbar className='navbar-sticky' bg="light" expand="lg">
