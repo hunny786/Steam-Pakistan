@@ -17,6 +17,7 @@ class videoTutorial extends Component {
 
     render() {
         const settings = {
+            arrows: false,
             infinite: true,
             speed: 500,
             slidesToShow: 3,
