@@ -3,9 +3,11 @@ import Head from 'next/head';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Layout from '../components/layout/layout';
 import '../styles/adminSideNav.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps, ...appProps }) {
+const MyApp = ({ Component, pageProps, ...appProps }) => {
     if ([`/dashboard`].includes(appProps.router.pathname))
       return (
         <Fragment>

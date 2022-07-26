@@ -86,6 +86,8 @@ footer p {
 
 .play-btn {
   position: absolute;
+  display: flex;
+  align-items: end;
   top: 10%;
   right: 5px;
   font-size: 11px;
@@ -132,17 +134,10 @@ footer p {
   z-index: 2;
 }
 
-.carousel-custom-indicators .carousel-control-prev {
-  left: auto;
-  right: 11%;
-  top: -115%;
-  width: 1%;
-}
-
-.carousel-custom-indicators .carousel-control-next {
-  top: -115%;
-  width: 1%;
-  right: 7%;
+.slick-arrows {
+  position: absolute;
+  right: 25px;
+  top: 50px;
 }
 
 .read-btn {
@@ -239,6 +234,10 @@ footer p {
   color:#fff;
 }
 
+.slick-slide img {
+  display: initial;
+}
+
 /*Navbar Css*/
 
 .navbar-sticky .nav-link {
@@ -275,14 +274,12 @@ footer p {
   .sticky-top .navbar-sticky .nav-link {
     padding: 10px 25px !important;
   }
-  .carousel-custom-indicators .carousel-control-prev {
-    right: 20%;
-    top: -102%;
-  }
-  .carousel-custom-indicators .carousel-control-next {
-    top: -102%;
-    right: 7%;
-  }   
+
+  .slick-arrows {
+    position: absolute;
+    right: 25px;
+    top: 100px;
+  }  
 }
 
 /*Navbar Css*/
