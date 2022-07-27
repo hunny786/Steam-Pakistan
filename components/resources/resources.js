@@ -1,11 +1,53 @@
 import React, { Component } from 'react';
-
+import { Button } from 'react-bootstrap';
 class ResourcesView extends Component {
     render() { 
         return (
-            <div className='container py-5 position-relative'>
-                <h2 className='heading mb-5'>Resources</h2>
-            </div>
+            <>
+                <div className='container py-5 position-relative'>
+                    <h2 className='heading mb-3'>Resources</h2>
+                    <p>Our bespoke collections of hand-picked resources have been created to give you new ideas and inspiration.</p>
+                </div>
+                <div className='wrapper-grey-bg py-5'>
+                    <div className='container'>
+                        <div className='wrapper-section'>
+                            <div className='row text-center'>
+                                <div className='col-4'>
+                                    <Button type="button" size='lg' className='btn-default'>STEM Club</Button>
+                                </div>
+                                <div className='col-4'>
+                                    <Button type="button" size='lg' className='btn-default'>STEM Safeer</Button>
+                                </div>
+                                <div className='col-4'>
+                                    <Button type="button" size='lg' className='btn-default'>STEM Safeer</Button>
+                                </div>
+                            </div>
+                            <hr className='mt-5' />
+                            <h3 className='sub-heading my-5'>Stem Club</h3>
+                            <div className='row'>
+                                <div className='col-4'>
+                                    <article>
+                                        <img src='../../images/resources-1.png' />
+                                        <a href=''>Bring engineering into your primary school</a>
+                                    </article>
+                                </div>
+                                <div className='col-4'>
+                                    <article>
+                                        <img src='../../images/resources-2.png' />
+                                        <a href=''>Teaching science through cross curricular topics</a>
+                                    </article>
+                                </div>
+                                <div className='col-4'>
+                                    <article>
+                                        <img src='../../images/resources-3.png' />
+                                        <a href=''>Teaching science through stories</a>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </>
         );
     }
 }
