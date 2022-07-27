@@ -66,7 +66,7 @@ footer p {
 
 .thumbnail-img {
   border: 5px solid #e1e1e1;
-  box-shadow: 0px 12px 16px 0px rgb(0 0 0 / 19%);
+  box-shadow: 0px 7px 7px 0px rgb(193 187 187 / 72%);
   width: 100%;
 }
 
@@ -265,9 +265,8 @@ footer p {
   padding-right: 0 !important;
 }
 
-.navbar-nav .nav-link.active, 
-.navbar-nav .show>.nav-link {
-  color: #d3d3d3;
+textarea {
+  resize: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -352,6 +351,39 @@ footer p {
 .bg-light {
   background-color: #fff !important;
   box-shadow: 0px 2px 19px 0px #cbc9c9;
+}
+
+.top-nav .navbar-nav .nav-link.active, 
+.top-nav .navbar-nav .show>.nav-link {
+  color: #d3d3d3;
+}
+
+.form-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%230497fe' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+/* Popups */
+
+.modal-content {
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  border: none;
+}
+
+.modal-backdrop {
+  background-color: #fff;
+  opacity: 0.93 !important;
+}
+
+.user-form-wrapper {
+  text-align: center;
+}
+
+.user-form-wrapper a {
+  color: #1e91fc;
+}
+
+.user-form-wrapper .heading::after {
+  display: none;
 }
 
 /*Dashboard Generic Css*/
