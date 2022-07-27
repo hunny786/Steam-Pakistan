@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import AdminSideNav from "../../components/adminSideNav/adminSideNav";
 import TopNavAdmin from "../../components/header/topNavAdmin";
-import BasicPopup from "../../components/popups/basicPopup";
 
 function AdminPage() {
     return (
@@ -13,7 +12,6 @@ function AdminPage() {
                 <AdminSideNav></AdminSideNav>
             </aside>
             <div className="wrapper">
-                <BasicPopup></BasicPopup>
             </div>
         </Fragment>
     )
