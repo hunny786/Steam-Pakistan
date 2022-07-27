@@ -401,6 +401,12 @@ article a {
   background-color: #f7f7f7 !important;
 }
 
+
+.top-nav-admin .navbar-brand {
+  font-weight: 600;
+  color: #3b3c43;
+}
+
 .top-nav-admin .user-dropdown a,
 .top-nav-admin .user-dropdown a:hover,
 .top-nav-admin .nav-link,
