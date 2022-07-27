@@ -19,7 +19,7 @@ class ResourcesView extends Component {
                                     <Button type="button" size='lg' className='btn-default'>STEM Safeer</Button>
                                 </div>
                                 <div className='col-4'>
-                                    <Button type="button" size='lg' className='btn-default'>STEM Safeer</Button>
+                                    <Button type="button" size='lg' className='btn-default'>Teacher Hub</Button>
                                 </div>
                             </div>
                             <hr className='mt-5' />
