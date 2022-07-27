@@ -23,7 +23,7 @@ class ResourcesView extends Component {
                                 </div>
                             </div>
                             <hr className='mt-5' />
-                            <h3 className='sub-heading my-5'>Stem Club</h3>
+                            <h3 className='sub-heading my-4'>Stem Club</h3>
                             <div className='row'>
                                 <div className='col-4'>
                                     <article>
