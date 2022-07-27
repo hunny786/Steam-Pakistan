@@ -134,7 +134,7 @@
   opacity: 0;
   pointer-events: none;
   transition: 0.4s;
-  padding-top: 7px;
+  padding: 7px 0 0 7px;
 }
 .sidebar.open li a .links_name{
   opacity: 1;

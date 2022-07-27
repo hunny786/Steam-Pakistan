@@ -28,39 +28,39 @@ const AdminSideNav = () => {
           <a href="#">
             <img src="../../icons/nav-reports.png" />
             <img className="active" src="../../icons/nav-reports-active.png" />
-            <span className="links_name">Dashboard</span>
+            <div className="links_name">School Reports</div>
           </a>
-          <span className="tooltip">Dashboard</span>
+          <span className="tooltip">School Reports</span>
         </li>
         <li>
           <a href="#">
             <img src="../../icons/nav-schools.png" />
             <img className="active" src="../../icons/nav-schools-active.png" />
-            <span className="links_name">User</span>
+            <div className="links_name">Schools</div>
           </a>
-          <span className="tooltip">User</span>
+          <span className="tooltip">Schools</span>
         </li>
         <li>
           <a href="#">
             <img src="../../icons/nav-dashboard.png" />
             <img className="active" src="../../icons/nav-dashboard-active.png" />
-            <span className="links_name">Messages</span>
+            <div className="links_name">Summary Dashboard</div>
           </a>
-          <span className="tooltip">Messages</span>
+          <span className="tooltip">Summary Dashboard</span>
         </li>
         <li>
           <a href="#">
             <img src="../../icons/nav-video.png" />
             <img className="active" src="../../icons/nav-video-active.png" />
-            <span className="links_name">Analytics</span>
+            <div className="links_name">How to video</div>
           </a>
-          <span className="tooltip">Analytics</span>
+          <span className="tooltip">How to video</span>
         </li>
         <li>
           <a href="#">
             <img src="../../icons/nav-gudie.png" />
             <img className="active" src="../../icons/nav-gudie-active.png" />
-            <span className="links_name">File Manager</span>
+            <div className="links_name">How to guide</div>
           </a>
           <span className="tooltip">Files</span>
         </li>
@@ -68,17 +68,17 @@ const AdminSideNav = () => {
           <a href="#">
             <img src="../../icons/nav-pedago.png" />
             <img className="active" src="../../icons/nav-pedago-active.png" />
-            <span className="links_name">Order</span>
+            <div className="links_name">Pedagogy</div>
           </a>
-          <span className="tooltip">Order</span>
+          <span className="tooltip">Pedagogy</span>
         </li>
         <li>
           <a href="#">
             <img src="../../icons/nav-settings.png" />
             <img className="active" src="../../icons/nav-settings-active.png" />
-            <span className="links_name">Saved</span>
+            <div className="links_name">Settings</div>
           </a>
-          <span className="tooltip">Saved</span>
+          <span className="tooltip">Settings</span>
         </li>
       </ul>
     </div>
