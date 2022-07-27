@@ -397,6 +397,24 @@ article a {
   color: #d3d3d3;
 }
 
+.top-nav-admin {
+  background-color: #f7f7f7 !important;
+}
+
+.top-nav-admin .user-dropdown a,
+.top-nav-admin .user-dropdown a:hover,
+.top-nav-admin .nav-link,
+.top-nav-admin .nav-link:hover,
+.top-nav-admin .navbar-nav .nav-link.active, 
+.top-nav-admin .navbar-nav .show>.nav-link {
+  color: #757b7f;
+}
+
+.top-nav-admin .user-dropdown li ul {
+  background-color: #f7f7f7;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 17%);
+}
+
 .form-select {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%230497fe' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
   color: #636363;
@@ -429,5 +447,6 @@ article a {
 /*Dashboard Generic Css*/
 
 .wrapper {
+  background-color: #f7f7f7;
   padding: 1rem 6rem;
 }

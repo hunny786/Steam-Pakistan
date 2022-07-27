@@ -20,81 +20,65 @@ const AdminSideNav = () => {
   return (
     <div ref={ref} className="sidebar">
       <div className="logo-details">
-        <i className="bx bxl-c-plus-plus icon"></i>
-        <div className="logo_name">CodingLab</div>
+        <a href="./"><img className="icon" src="../../images/logo-web-small.png" /></a>
         <i className="bx bx-menu" id="btn" onClick={onCloseBtn}></i>
       </div>
       <ul className="nav-list">
         <li>
-          <i className="bx bx-search"></i>
-          <input type="text" placeholder="Search..." />
-          <span className="tooltip">Search</span>
-        </li>
-        <li>
           <a href="#">
-            <i className="bx bx-grid-alt"></i>
+            <img src="../../icons/nav-reports.png" />
+            <img className="active" src="../../icons/nav-reports-active.png" />
             <span className="links_name">Dashboard</span>
           </a>
           <span className="tooltip">Dashboard</span>
         </li>
         <li>
           <a href="#">
-            <i className="bx bx-user"></i>
+            <img src="../../icons/nav-schools.png" />
+            <img className="active" src="../../icons/nav-schools-active.png" />
             <span className="links_name">User</span>
           </a>
           <span className="tooltip">User</span>
         </li>
         <li>
           <a href="#">
-            <i className="bx bx-chat"></i>
+            <img src="../../icons/nav-dashboard.png" />
+            <img className="active" src="../../icons/nav-dashboard-active.png" />
             <span className="links_name">Messages</span>
           </a>
           <span className="tooltip">Messages</span>
         </li>
         <li>
           <a href="#">
-            <i className="bx bx-pie-chart-alt-2"></i>
+            <img src="../../icons/nav-video.png" />
+            <img className="active" src="../../icons/nav-video-active.png" />
             <span className="links_name">Analytics</span>
           </a>
           <span className="tooltip">Analytics</span>
         </li>
         <li>
           <a href="#">
-            <i className="bx bx-folder"></i>
+            <img src="../../icons/nav-gudie.png" />
+            <img className="active" src="../../icons/nav-gudie-active.png" />
             <span className="links_name">File Manager</span>
           </a>
           <span className="tooltip">Files</span>
         </li>
         <li>
           <a href="#">
-            <i className="bx bx-cart-alt"></i>
+            <img src="../../icons/nav-pedago.png" />
+            <img className="active" src="../../icons/nav-pedago-active.png" />
             <span className="links_name">Order</span>
           </a>
           <span className="tooltip">Order</span>
         </li>
         <li>
           <a href="#">
-            <i className="bx bx-heart"></i>
+            <img src="../../icons/nav-settings.png" />
+            <img className="active" src="../../icons/nav-settings-active.png" />
             <span className="links_name">Saved</span>
           </a>
           <span className="tooltip">Saved</span>
-        </li>
-        <li>
-          <a href="#">
-            <i className="bx bx-cog"></i>
-            <span className="links_name">Setting</span>
-          </a>
-          <span className="tooltip">Setting</span>
-        </li>
-        <li className="profile">
-          <div className="profile-details">
-            <img src="profile.jpg" alt="profileImg" />
-            <div className="name_job">
-              <div className="name">Prem Shahi</div>
-              <div className="job">Web designer</div>
-            </div>
-          </div>
-          <i className="bx bx-log-out" id="log_out"></i>
         </li>
       </ul>
     </div>
