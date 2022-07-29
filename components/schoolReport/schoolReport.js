@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import CreateReport from '../createReport/createReport';
-import EnhancedTable from '../Table';
+import EnhancedTable from '../table';
 
 class SchoolReport extends Component {
     render() { 
