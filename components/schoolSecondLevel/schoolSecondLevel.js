@@ -96,15 +96,13 @@ class SchoolSecondLevel extends Component {
                         <p className='me-4'>Published on: <span className='text-primary'>15th July 2022</span></p>
                         <p>Contributed by: <span className='text-primary'>Jinnah Public School, Karachi</span></p>
                     </div>
-                    <div className='row'>
-                        <div className='col'>
-                            <button className='btn btn-primary btn-sm me-3'>
-                                <img src='../../icons/accept.png' /> Accept Report
-                            </button>
-                            <button className='btn btn-danger btn-sm'>
-                                <img src='../../icons/reject.png' /> Reject Report
-                            </button>
-                        </div>
+                    <div className='d-flex'>
+                        <button className='btn btn-primary btn-sm me-3'>
+                            <img src='../../icons/accept.png' /> Accept Report
+                        </button>
+                        <button className='btn btn-danger btn-sm'>
+                            <img src='../../icons/reject.png' /> Reject Report
+                        </button>
                     </div>
                 </div>
             </>
