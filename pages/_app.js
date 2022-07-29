@@ -32,6 +32,18 @@ const MyApp = ({ Component, pageProps, ...appProps }) => {
             <Component {...pageProps} />
           </Fragment>
         );
+        if ([`/dashboard/schoolSecondLevel`].includes(appProps.router.pathname))
+          return (
+            <Fragment>
+              <Head>
+                <title>STEM Dashboard</title>
+                <link rel="stylesheet" href="https://use.typekit.net/jyt4vtq.css" />
+                <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
+                <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
+              </Head>
+              <Component {...pageProps} />
+            </Fragment>
+          );
       return (
         <Fragment>
           <Head>

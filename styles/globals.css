@@ -467,14 +467,11 @@ article a {
 
 .badge {
   padding: 10px 10px 8px 10px;
-}
-
-.badge.bg-primary {
-  background-color: #0397fe !important;
-}
-
-.badge.bg-secondary {
   background-color: #d0dbe4 !important;
+}
+
+.active .badge {
+  background-color: #0397fe !important;
 }
 
 .nav.nav-tabs {

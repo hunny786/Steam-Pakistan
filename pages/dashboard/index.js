@@ -21,28 +21,28 @@ function AdminPage() {
                 >
                 <Tab eventKey="home" title={
                 <>
-                    <span className="badge bg-primary">15</span> Stem Club
+                    <span className="badge">15</span> Stem Club
                 </>}
                 >
                 <SchoolReport></SchoolReport>
                 </Tab>
                 <Tab eventKey="profile" title={
                 <>
-                    <span className="badge bg-secondary">17</span> Stem Safeer
+                    <span className="badge">17</span> Stem Safeer
                 </>}
                 >
                 <SchoolReport></SchoolReport>
                 </Tab>
                 <Tab eventKey="contact" title={
                 <>
-                    <span className="badge bg-secondary">24</span> Teacher Hub
+                    <span className="badge">24</span> Teacher Hub
                 </>}
                 >
                 <SchoolReport></SchoolReport>
                 </Tab>
                 <Tab eventKey="Others" title={
                 <>
-                    <span className="badge bg-secondary">08</span> Others
+                    <span className="badge">08</span> Others
                 </>}
                 >
                 <SchoolReport></SchoolReport>
