@@ -318,6 +318,9 @@ article a {
     right: 25px;
     top: 100px;
   }  
+  .wrapper {
+    padding: 1rem;
+  }
 }
 
 /*Navbar Css*/
@@ -507,9 +510,63 @@ article a {
 
 .tab-content .wrapper-section {
   border-top-left-radius: 0;
-  padding: 10px 0px;
+  padding: 10px 0px 0px 0px;
 }
 
 .text-primary {
   color: #0397fe !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    padding: 1rem;
+  }
+  .nav.nav-tabs {
+    border: none;
+    margin: 0 !important;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+  .nav-tabs .nav-item {
+    margin: 0 5px;
+    white-space: nowrap;
+  }
+}
+
+/*Data Tables*/
+
+.MuiBox-root .MuiPaper-root {
+  box-shadow: none;
+  border-radius: 12px;
+}
+
+.MuiTable-root thead tr {
+  background: #f0f1f2;
+}
+
+.MuiTable-root thead tr th:hover {
+  background-color: #e7e8e9;
+}
+
+.MuiTablePagination-select {
+  background-color: #f0f1f2;
+  border-radius: 12px;
+}
+
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-displayedRows {
+  margin: 0;
+}
+
+.MuiTableRow-root:nth-child(2n) {
+  background-color: #fafafa;
+}
+
+.MuiTableCell-root {
+  border: 0;
+}
+
+.MuiTableCell-root .MuiButtonBase-root {
+  font-weight: 600;
 }

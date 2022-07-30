@@ -13,34 +13,26 @@ import Paper from '@mui/material/Paper';
 import Checkbox from '@mui/material/Checkbox';
 import { visuallyHidden } from '@mui/utils';
 
-function createData(name, district, theme, date, status, details, approve) {
+function createData(name, session, status, details) {
     return {
       name,
-      district,
-      theme,
-      date,
+      session,
       status,
-      details,
-      approve,
+      details
     };
   }
 
 const rows = [
-createData('Cupcake', 305, 3.7, 67, <span className='text-danger'>Pending</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel/'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Eclair', 262, 16.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Frozen yoghurt', 159, 6.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Gingerbread', 356, 16.0, 49, <span className='text-danger'>Pending</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Cupcake', 305, 3.7, 67, <span className='text-danger'>Pending</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Eclair', 262, 16.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Frozen yoghurt', 159, 6.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Cupcake', 305, 3.7, 67, <span className='text-danger'>Pending</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Eclair', 262, 16.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Frozen yoghurt', 159, 6.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Eclair', 262, 16.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>)
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -77,12 +69,12 @@ const headCells = [
     {
       id: 'name',
       numeric: true,
-      label: 'School Name',
+      label: 'Theme',
     },
     {
-      id: 'district',
+      id: 'session',
       numeric: false,
-      label: 'District',
+      label: 'Session Held',
     },
     {
       id: 'theme',
@@ -90,25 +82,10 @@ const headCells = [
       label: 'Theme',
     },
     {
-      id: 'date',
-      numeric: false,
-      label: 'Date',
-    },
-    {
-      id: 'status',
-      numeric: false,
-      label: 'Status',
-    },
-    {
       id: 'details',
       numeric: false,
       label: 'Details',
-    },
-    {
-      id: 'approve',
-      numeric: false,
-      label: <a href=''><img src="../icons/icon-tick-double.png" /></a>,
-    },
+    }
   ];
 
 function EnhancedTableHead(props) {
@@ -166,7 +143,7 @@ EnhancedTableHead.propTypes = {
   rowCount: PropTypes.number.isRequired,
 };
 
-export default function EnhancedTable() {
+export default function TableSchool() {
   const [order, setOrder] = React.useState('asc');
   const [orderBy, setOrderBy] = React.useState('calories');
   const [selected, setSelected] = React.useState([]);
@@ -275,12 +252,9 @@ export default function EnhancedTable() {
                       >
                         {row.name}
                       </TableCell>
-                      <TableCell align="center">{row.district}</TableCell>
-                      <TableCell align="center">{row.theme}</TableCell>
-                      <TableCell align="center">{row.date}</TableCell>
+                      <TableCell align="center">{row.session}</TableCell>
                       <TableCell align="center">{row.status}</TableCell>
                       <TableCell align="center">{row.details}</TableCell>
-                      <TableCell align="center">{row.approve}</TableCell>
                     </TableRow>
                   );
                 })}

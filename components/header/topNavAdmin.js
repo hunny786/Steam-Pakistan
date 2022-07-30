@@ -9,7 +9,7 @@ class TopNavAdmin extends Component {
         return (
             <Fragment>
                 <Navbar className={`${topNavAdminStyles.navbarTopnav} top-nav-admin p-0`} expand="lg">
-                    <Container className='justify-content-between'>
+                    <Container className='justify-content-center justify-content-lg-between container'>
                         <Navbar.Brand href=""><img className="brand-img me-2" src="../../icons/nav-schools-active.png" />School Reports</Navbar.Brand>
                         <Nav className='flex-row align-items-center'>
                             <Nav.Link className={`${topNavAdminStyles.navLink} d-flex align-items-end`} href="./resources" target='_blank' rel='noreferrer'>

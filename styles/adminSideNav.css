@@ -158,8 +158,21 @@
 .sidebar li a:hover .active {
   display: block;
 }
-@media (max-width: 420px) {
+@media (max-width: 768px) {
+  .sidebar {
+    left: -100px;
+  }
   .sidebar li .tooltip{
     display: none;
+  }
+  .sidebar .logo-details #btn {
+    top: 38%;
+    right: -90px;
+  }
+  .sidebar.open .logo-details #btn {
+    right: 0;
+  }
+  .sidebar.open {
+    left: 0;
   }
 }

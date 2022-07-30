@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import EnhancedTable from '../table';
+import TableSchool from '../tableSchool';
 
 class SchoolReport extends Component {
     render() { 
         return (
             <>
                 <div className='wrapper-section'>
-                    <EnhancedTable></EnhancedTable>
+                    <TableSchool></TableSchool>
                 </div>
             </>
         );

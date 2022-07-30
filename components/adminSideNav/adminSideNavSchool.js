@@ -1,4 +1,5 @@
 import {useRef} from "react";
+import Link from "next/link";
 
 const AdminSideNavSchool = () => {
     const sidebar = null;
@@ -33,11 +34,13 @@ const AdminSideNavSchool = () => {
           <span className="tooltip">School Reports</span>
         </li>
         <li>
-          <a href="#">
-            <img src="../../icons/nav-creatreport.png" />
-            <img className="active" src="../../icons/nav-creatreport-active.png" />
-            <div className="links_name">Create Report</div>
-          </a>
+          <Link href='/dashboard/schoolSecondLevel' passHref>
+            <a>
+              <img src="../../icons/nav-creatreport.png" />
+              <img className="active" src="../../icons/nav-creatreport-active.png" />
+              <div className="links_name">Create Report</div>
+            </a>
+          </Link>
           <span className="tooltip">Create Report</span>
         </li>
       </ul>
