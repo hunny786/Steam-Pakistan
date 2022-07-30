@@ -86,7 +86,7 @@ class SchoolSecondLevel extends Component {
                     </div>
                     <hr></hr>
                     <div className='row mb-4'>
-                        <div className='col text-center text-lg-left'>
+                        <div className='col text-center text-lg-start'>
                             <button className='btn btn-primary btn-sm'>
                                 <img src='../../icons/add.png' /> Add Thumbnail
                             </button>

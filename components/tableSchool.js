@@ -25,14 +25,14 @@ function createData(name, session, status, details) {
 const rows = [
 createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
 createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-warning'>District Approval</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-warning'>District Approval</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-warning'>District Approval</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-warning'>District Approval</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
 createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
 createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
-createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
-createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
-createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
-createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
-createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
-createData('Cupcake', 305, <span className='text-danger'>Pending</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
+createData('Cupcake', 305, <span className='text-warning'>District Approval</span>, <a href='./schoolSecondLevel'><img src='../icons/icon-view.png' /></a>),
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -79,7 +79,7 @@ const headCells = [
     {
       id: 'theme',
       numeric: false,
-      label: 'Theme',
+      label: 'Status',
     },
     {
       id: 'details',

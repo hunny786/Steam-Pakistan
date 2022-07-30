@@ -3,7 +3,7 @@ import AdminSideNav from "../../components/adminSideNav/adminSideNav";
 import TopNavAdmin from "../../components/header/topNavAdmin";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import SchoolReport from "../../components/schoolReport/schoolReport";
+import DashboardReport from "../../components/DashboardReport/dashboardReport";
 
 function AdminPage() {
     return (
@@ -24,28 +24,28 @@ function AdminPage() {
                     <span className="badge">15</span> Stem Club
                 </>}
                 >
-                <SchoolReport></SchoolReport>
+                <DashboardReport></DashboardReport>
                 </Tab>
                 <Tab eventKey="profile" title={
                 <>
                     <span className="badge">17</span> Stem Safeer
                 </>}
                 >
-                <SchoolReport></SchoolReport>
+                <DashboardReport></DashboardReport>
                 </Tab>
                 <Tab eventKey="contact" title={
                 <>
                     <span className="badge">24</span> Teacher Hub
                 </>}
                 >
-                <SchoolReport></SchoolReport>
+                <DashboardReport></DashboardReport>
                 </Tab>
                 <Tab eventKey="Others" title={
                 <>
                     <span className="badge">08</span> Others
                 </>}
                 >
-                <SchoolReport></SchoolReport>
+                <DashboardReport></DashboardReport>
                 </Tab>
             </Tabs>
             </div>

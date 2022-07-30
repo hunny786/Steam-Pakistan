@@ -35,12 +35,7 @@ createData('Cupcake', 305, 3.7, 67, <span className='text-danger'>Pending</span>
 createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
 createData('Eclair', 262, 16.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
 createData('Frozen yoghurt', 159, 6.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Cupcake', 305, 3.7, 67, <span className='text-danger'>Pending</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Eclair', 262, 16.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Frozen yoghurt', 159, 6.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Eclair', 262, 16.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>)
+createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>)
 ];
 
 function descendingComparator(a, b, orderBy) {
