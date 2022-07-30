@@ -34,7 +34,7 @@ const AdminSideNavSchool = () => {
           <span className="tooltip">School Reports</span>
         </li>
         <li>
-          <Link href='/dashboard/schoolSecondLevel' passHref>
+          <Link href='./createSchoolReport' passHref>
             <a>
               <img src="../../icons/nav-creatreport.png" />
               <img className="active" src="../../icons/nav-creatreport-active.png" />
