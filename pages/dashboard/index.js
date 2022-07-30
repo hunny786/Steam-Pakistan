@@ -3,7 +3,7 @@ import AdminSideNav from "../../components/adminSideNav/adminSideNav";
 import TopNavAdmin from "../../components/header/topNavAdmin";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import DashboardReport from "../../components/DashboardReport/dashboardReport";
+import DashboardReport from "../../components/dashboardReport/dashboardReport";
 
 function AdminPage() {
     return (
