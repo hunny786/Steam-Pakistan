@@ -10,7 +10,7 @@ class CreateReport extends Component {
                     <div className="col-lg-6">
                         <h3 className="text-primary">Lacas Primary School, Lahore</h3>
                     </div>
-                    <div className="col-lg-6 text-end">
+                    <div className="col-lg-6 text-center text-lg-end">
                         <button className="btn btn-warning me-2 text-white">Save as draft</button>
                         <button className="btn btn-primary">Submit</button>
                     </div>
