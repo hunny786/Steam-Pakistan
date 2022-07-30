@@ -26,11 +26,13 @@ const AdminSideNavSchool = () => {
       </div>
       <ul className="nav-list">
         <li>
-          <a href="#">
-            <img src="../../icons/nav-reports.png" />
-            <img className="active" src="../../icons/nav-reports-active.png" />
-            <div className="links_name">School Reports</div>
-          </a>
+          <Link href='./school' passHref>
+            <a>
+              <img src="../../icons/nav-reports.png" />
+              <img className="active" src="../../icons/nav-reports-active.png" />
+              <div className="links_name">School Reports</div>
+            </a>
+          </Link>
           <span className="tooltip">School Reports</span>
         </li>
         <li>
