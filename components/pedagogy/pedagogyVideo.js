@@ -44,8 +44,8 @@ class PedagogyVideo extends Component {
                         <input type='text' className='form-control'></input>
                     </div>
                 </div>
-                <div className='row mt-4'>
-                    <div className='col-lg-2 mb-3 mb-lg-0 d-grid'>
+                <div className='row flex-column-reverse flex-lg-row mt-3'>
+                    <div className='col-lg-2 d-grid'>
                         <button className='btn btn-primary'><img className='me-2' src='../../icons/add.png' />Create Video</button>
                     </div>
                     <div className='offset-lg-6 col-lg-1 mt-2'>
@@ -54,7 +54,7 @@ class PedagogyVideo extends Component {
                             <label className="form-check-label">Featured</label>
                         </div>
                     </div>
-                    <div className='col-lg-3'>
+                    <div className='col-lg-3 mb-3 mb-lg-0'>
                         <div className='row align-items-center'>
                             <div className='col-lg-6'>
                                 <label className=''>Ordering Number</label>

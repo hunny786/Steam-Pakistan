@@ -44,11 +44,11 @@ class HowToVideo extends Component {
                         <input type='text' className='form-control'></input>
                     </div>
                 </div>
-                <div className='row mt-4'>
-                    <div className='col-lg-2 mb-3 mb-lg-0 d-grid'>
+                <div className='row flex-column-reverse flex-lg-row mt-3'>
+                    <div className='col-lg-2 d-grid'>
                         <button className='btn btn-primary'><img className='me-2' src='../../icons/add.png' />Create Video</button>
                     </div>
-                    <div className='offset-lg-7 col-lg-3'>
+                    <div className='offset-lg-7 col-lg-3 mb-3 mb-lg-0'>
                         <div className='row align-items-center'>
                             <div className='col-lg-6'>
                                 <label className=''>Ordering Number</label>
