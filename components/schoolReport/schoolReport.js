@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TableSchool from '../tableSchool';
+import TableSchool from '../tables/tableSchool';
 
 class SchoolReport extends Component {
     render() { 

@@ -12,7 +12,7 @@ class TopNavAdmin extends Component {
                     <Container className='justify-content-center justify-content-lg-between' fluid>
                         <Navbar.Brand href=""><img className="brand-img me-2" src="../../icons/nav-schools-active.png" />School Reports</Navbar.Brand>
                         <Nav className='flex-row align-items-center'>
-                            <Nav.Link className={`${topNavAdminStyles.navLink} d-flex align-items-end`} href="./resources" target='_blank' rel='noreferrer'>
+                            <Nav.Link className={`${topNavAdminStyles.navLink} d-flex align-items-end`} href="http://localhost:3000/resources" target='_blank' rel='noreferrer'>
                                 <img src="../../icons/quick-resources.png" />
                                 Resources
                             </Nav.Link>

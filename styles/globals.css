@@ -239,8 +239,10 @@ footer p {
 }
 
 .btn-search {
+  border: none;
   padding: 0 0 0 10px;
   background-color: #fff;
+  border-radius: 50%;
 }
 
 .btn-search:hover,
@@ -262,6 +264,8 @@ footer p {
 
 .btn-filter {
   background: #fff;
+  border: none;
+  border-radius: 50%;
 }
 
 .btn-filter:hover,
@@ -273,6 +277,20 @@ footer p {
 
 .btn-filter:focus-visible {
   outline: none;
+}
+
+.sidebar i {
+  line-height: 40px;
+}
+
+.rounded {
+  border-radius: 24px !important;
+}
+
+.top-nav-admin .nav-link img,
+.top-nav-admin .navbar-nav ul li a img {
+  position: relative;
+  top: 2px;
 }
 
 /*Navbar Css*/
@@ -448,6 +466,11 @@ article a {
   margin-left: 100px;
 }
 
+.top-nav-admin .navbar-brand .brand-img {
+  position: relative;
+  top: -3px;
+}
+
 .top-nav-admin .user-dropdown a,
 .top-nav-admin .user-dropdown a:hover,
 .top-nav-admin .nav-link,
@@ -504,6 +527,7 @@ article a {
 
 .form-control {
   color: #636363;
+  border-radius: 24px;
 }
 
 .badge {
@@ -610,4 +634,29 @@ article a {
 
 .MuiTableCell-root .MuiButtonBase-root {
   font-weight: 600;
+}
+
+/*Fullscreen Modal*/
+
+.modal-fullscreen {
+  background: rgb(0 0 0 / 4%);
+}
+
+.modal-fullscreen.bg-solid {
+  background: #f8f8f8;
+}
+
+.modal-fullscreen .modal-dialog {
+  max-width: unset;
+  margin: 0;
+  height: 100%;
+}
+
+.modal-fullscreen .modal-content {
+  background-color: transparent;
+}
+
+.modal-fullscreen .modal-title img {
+  position: relative;
+  top: -2px;
 }

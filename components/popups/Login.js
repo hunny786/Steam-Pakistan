@@ -4,6 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 function LoginModal(props) {
   return (
       <Modal
+        dialogClassName="modal-90w"
         {...props}
         aria-labelledby="contained-modal-title-vcenter"
         centered

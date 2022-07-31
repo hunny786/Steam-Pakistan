@@ -97,7 +97,7 @@ class SchoolSecondLevel extends Component {
                         <p>Contributed by: <span className='text-primary'>Jinnah Public School, Karachi</span></p>
                     </div>
                     <div className='d-flex'>
-                        <button className='btn btn-primary btn-sm me-3'>
+                        <button className='btn btn-success btn-sm me-3'>
                             <img src='../../icons/accept.png' /> Accept Report
                         </button>
                         <button className='btn btn-danger btn-sm'>

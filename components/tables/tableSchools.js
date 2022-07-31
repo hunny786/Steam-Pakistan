@@ -13,29 +13,28 @@ import Paper from '@mui/material/Paper';
 import Checkbox from '@mui/material/Checkbox';
 import { visuallyHidden } from '@mui/utils';
 
-function createData(name, district, theme, date, status, details, approve) {
+function createData(name, province, type, tier, gender, emisCode) {
     return {
       name,
-      district,
-      theme,
-      date,
-      status,
-      details,
-      approve,
+      province,
+      type,
+      tier,
+      gender,
+      emisCode
     };
   }
 
 const rows = [
-createData('Cupcake', 305, 3.7, 67, <span className='text-danger'>Pending</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel/'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Eclair', 262, 16.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Frozen yoghurt', 159, 6.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Gingerbread', 356, 16.0, 49, <span className='text-danger'>Pending</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Cupcake', 305, 3.7, 67, <span className='text-danger'>Pending</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Eclair', 262, 16.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Frozen yoghurt', 159, 6.0, 24, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>),
-createData('Donut', 452, 25.0, 51, <span className='text-warning'>District Approval</span>, <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>, <a href=''><img src="../icons/icon-tick.png" /></a>)
+createData('Siddeeq Public School Rawalpindi', 'Punjab', 'Governement', 'Secondary', 'Female', '33552211'),
+createData('Peshawar Model Girls High School', 'Punjab', 'Governement', 'Secondary', 'Female', '33552211'),
+createData('Roots Millenium School', 'Sindh', 'Governement', 'Secondary', 'Female', '33552211'),
+createData('Peshawar Model Girls High School', 'Punjab', 'Governement', 'Secondary', 'Female', '33552211'),
+createData('Peshawar Model Girls High School', 'Punjab', 'Governement', 'Secondary', 'Female', '33552211'),
+createData('Roots Millenium School', 'Sindh', 'Governement', 'Secondary', 'Female', '33552211'),
+createData('Siddeeq Public School Rawalpindi', 'Punjab', 'Governement', 'Secondary', 'Female', '33552211'),
+createData('Peshawar Model Girls High School', 'Punjab', 'Governement', 'Secondary', 'Female', '33552211'),
+createData('Roots Millenium School', 'Sindh', 'Governement', 'Secondary', 'Female', '33552211'),
+createData('Peshawar Model Girls High School', 'Punjab', 'Governement', 'Secondary', 'Female', '33552211'),
 ];
 
 function descendingComparator(a, b, orderBy) {
@@ -75,35 +74,30 @@ const headCells = [
       label: 'School Name',
     },
     {
-      id: 'district',
+      id: 'province',
       numeric: false,
-      label: 'District',
+      label: 'Province',
     },
     {
-      id: 'theme',
+      id: 'type',
       numeric: false,
-      label: 'Theme',
+      label: 'Type',
     },
     {
-      id: 'date',
+      id: 'tier',
       numeric: false,
-      label: 'Date',
+      label: 'Tier',
     },
     {
-      id: 'status',
+      id: 'gender',
       numeric: false,
-      label: 'Status',
+      label: 'Gender',
     },
     {
-      id: 'details',
+      id: 'emisCode',
       numeric: false,
-      label: 'Details',
-    },
-    {
-      id: 'approve',
-      numeric: false,
-      label: <a href=''><img src="../icons/icon-tick-double.png" /></a>,
-    },
+      label: 'EMIS Code',
+    }
   ];
 
 function EnhancedTableHead(props) {
@@ -161,7 +155,7 @@ EnhancedTableHead.propTypes = {
   rowCount: PropTypes.number.isRequired,
 };
 
-export default function EnhancedTable() {
+export default function TableSchools() {
   const [order, setOrder] = React.useState('asc');
   const [orderBy, setOrderBy] = React.useState('calories');
   const [selected, setSelected] = React.useState([]);
@@ -270,12 +264,11 @@ export default function EnhancedTable() {
                       >
                         {row.name}
                       </TableCell>
-                      <TableCell align="center">{row.district}</TableCell>
-                      <TableCell align="center">{row.theme}</TableCell>
-                      <TableCell align="center">{row.date}</TableCell>
-                      <TableCell align="center">{row.status}</TableCell>
-                      <TableCell align="center">{row.details}</TableCell>
-                      <TableCell align="center">{row.approve}</TableCell>
+                      <TableCell align="center">{row.province}</TableCell>
+                      <TableCell align="center">{row.type}</TableCell>
+                      <TableCell align="center">{row.tier}</TableCell>
+                      <TableCell align="center">{row.gender}</TableCell>
+                      <TableCell align="center">{row.emisCode}</TableCell>
                     </TableRow>
                   );
                 })}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import EnhancedTable from '../table';
+import EnhancedTable from '../tables/table';
 
 class DashboardReport extends Component {
     render() { 

@@ -8,54 +8,18 @@ import '../styles/adminSideNav.css'
 import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps, ...appProps }) => {
-    if ([`/dashboard`].includes(appProps.router.pathname))
+    if ([`/dashboard`].includes(appProps.router.pathname) || [`/dashboard/school`].includes(appProps.router.pathname) || [`/dashboard/schools`].includes(appProps.router.pathname) || [`/dashboard/createSchoolReport`].includes(appProps.router.pathname) || [`/dashboard/schoolSecondLevel`].includes(appProps.router.pathname) || [`/dashboard/summaryDashboard`].includes(appProps.router.pathname) || [`/dashboard/howToVideo`].includes(appProps.router.pathname) || [`/dashboard/howToGuide`].includes(appProps.router.pathname) || [`/dashboard/pedagogy`].includes(appProps.router.pathname) || [`/dashboard/settings`].includes(appProps.router.pathname))
       return (
         <Fragment>
           <Head>
             <title>STEM Dashboard</title>
             <link rel="stylesheet" href="https://use.typekit.net/jyt4vtq.css" />
-            <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
+            <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet' />
             <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
           </Head>
           <Component {...pageProps} />
         </Fragment>
       );
-      if ([`/dashboard/school`].includes(appProps.router.pathname))
-        return (
-          <Fragment>
-            <Head>
-              <title>STEM Dashboard</title>
-              <link rel="stylesheet" href="https://use.typekit.net/jyt4vtq.css" />
-              <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
-              <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
-            </Head>
-            <Component {...pageProps} />
-          </Fragment>
-        );
-        if ([`/dashboard/createSchoolReport`].includes(appProps.router.pathname))
-          return (
-            <Fragment>
-              <Head>
-                <title>STEM Dashboard</title>
-                <link rel="stylesheet" href="https://use.typekit.net/jyt4vtq.css" />
-                <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
-                <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
-              </Head>
-              <Component {...pageProps} />
-            </Fragment>
-          );
-          if ([`/dashboard/schoolSecondLevel`].includes(appProps.router.pathname))
-            return (
-              <Fragment>
-                <Head>
-                  <title>STEM Dashboard</title>
-                  <link rel="stylesheet" href="https://use.typekit.net/jyt4vtq.css" />
-                  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
-                  <link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
-                </Head>
-                <Component {...pageProps} />
-              </Fragment>
-            );
       return (
         <Fragment>
           <Head>

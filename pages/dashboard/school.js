@@ -17,14 +17,12 @@ function SchoolDashboard() {
                 <AdminSideNavSchool></AdminSideNavSchool>
             </aside>
             <div className="wrapper">
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="offset-lg-9 col-12 col-lg-3 mb-3 mb-lg-0">
-                            <div className="input-group">
-                                <button className="btn btn-search" type="button"><img src="../icons/quick-search.png" /></button>
-                                <input type="text" className="form-control" placeholder="Search" aria-label="Search" aria-describedby="" />
-                                <button  onClick={() => setModalShow(true)} className="btn btn-filter" type="button"><img src="../icons/filter.png" /></button>
-                            </div>
+                <div className="row">
+                    <div className="offset-lg-9 col-12 col-lg-3 mb-3 mb-lg-0">
+                        <div className="input-group">
+                            <button className="btn btn-search" type="button"><img src="../icons/quick-search.png" /></button>
+                            <input type="text" className="form-control" placeholder="Search" aria-label="Search" aria-describedby="" />
+                            <button onClick={() => setModalShow(true)} className="btn btn-filter" type="button"><img src="../icons/filter.png" /></button>
                         </div>
                     </div>
                 </div>
