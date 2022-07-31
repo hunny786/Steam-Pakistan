@@ -26,7 +26,7 @@ const AdminSideNav = () => {
       </div>
       <ul className="nav-list">
         <li>
-          <Link href='http://localhost:3000/dashboard/' passHref>
+          <Link href='./dashboard/' passHref>
             <a href="#">
               <img src="../../icons/nav-reports.png" />
               <img className="active" src="../../icons/nav-reports-active.png" />
@@ -36,7 +36,7 @@ const AdminSideNav = () => {
         <span className="tooltip">School Reports</span>
         </li>
         <li>
-          <Link href='http://localhost:3000/dashboard/schools' passHref>
+          <Link href='./dashboard/schools' passHref>
             <a href="#">
               <img src="../../icons/nav-schools.png" />
               <img className="active" src="../../icons/nav-schools-active.png" />
@@ -46,7 +46,7 @@ const AdminSideNav = () => {
           <span className="tooltip">Schools</span>
         </li>
         <li>
-          <Link href='http://localhost:3000/dashboard/summaryDashboard' passHref>
+          <Link href='./dashboard/summaryDashboard' passHref>
             <a href="#">
               <img src="../../icons/nav-dashboard.png" />
               <img className="active" src="../../icons/nav-dashboard-active.png" />
@@ -56,7 +56,7 @@ const AdminSideNav = () => {
           <span className="tooltip">Summary Dashboard</span>
         </li>
         <li>
-          <Link href='http://localhost:3000/dashboard/howToVideo' passHref>
+          <Link href='./dashboard/howToVideo' passHref>
             <a href="#">
               <img src="../../icons/nav-video.png" />
               <img className="active" src="../../icons/nav-video-active.png" />
@@ -66,7 +66,7 @@ const AdminSideNav = () => {
           <span className="tooltip">How to video</span>
         </li>
         <li>
-          <Link href='http://localhost:3000/dashboard/howToGuide' passHref>
+          <Link href='./dashboard/howToGuide' passHref>
             <a href="#">
               <img src="../../icons/nav-gudie.png" />
               <img className="active" src="../../icons/nav-gudie-active.png" />
@@ -76,7 +76,7 @@ const AdminSideNav = () => {
           <span className="tooltip">How to guide</span>
         </li>
         <li>
-          <Link href='http://localhost:3000/dashboard/pedagogy' passHref>
+          <Link href='./dashboard/pedagogy' passHref>
             <a href="#">
               <img src="../../icons/nav-pedago.png" />
               <img className="active" src="../../icons/nav-pedago-active.png" />
@@ -86,7 +86,7 @@ const AdminSideNav = () => {
           <span className="tooltip">Pedagogy</span>
         </li>
         <li>
-          <Link href='http://localhost:3000/dashboard/settings' passHref>
+          <Link href='./dashboard/settings' passHref>
             <a href="#">
               <img src="../../icons/nav-settings.png" />
               <img className="active" src="../../icons/nav-settings-active.png" />
