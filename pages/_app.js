@@ -8,7 +8,7 @@ import '../styles/adminSideNav.css'
 import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps, ...appProps }) => {
-    if ([`/Login`].includes(appProps.router.pathname) || [`/Register`].includes(appProps.router.pathname))
+    if ([`/Login`].includes(appProps.router.pathname) || [`/Register`].includes(appProps.router.pathname) || [`/ForgotPassword`].includes(appProps.router.pathname))
       return (
         <Fragment>
           <Head>

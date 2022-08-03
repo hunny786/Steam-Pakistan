@@ -10,7 +10,7 @@ class Register extends Component {
                 <div className='user-form-wrapper register p-4 mx-lg-4'>
                     <img className='mb-4' src='../../images/logo-web-small.png' />
                         <h2 className='heading mb-4'>Register</h2>
-                        <p className='mb-4'>Already have an account? <a href='' className=''>Login</a></p>
+                        <p className='mb-4'>Already have an account? <a href='./Login' className=''>Login</a></p>
                         <div className='row'>
                             <div className='col-lg-4 mb-2 mb-lg-0'>
                                 <Form.Select className='mb-2' aria-label="Default select example">

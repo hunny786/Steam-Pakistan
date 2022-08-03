@@ -16,6 +16,7 @@ class Footer extends Component {
                         <div className='col-12 col-sm'>
                             <div className='social-icons text-center text-sm-end'>
                                 <a href="#"><img src='../../icons/icon-faceb.png'/></a>
+                                <a href="#"><img src='../../icons/icon-insta.png'/></a>
                                 <a href="#"><img src='../../icons/icon-twitter.png'/></a>
                                 <a href="#"><img src='../../icons/icon-youtube.png'/></a>
                             </div>

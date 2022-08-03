@@ -363,6 +363,11 @@ article a {
   color: #636363;
 }
 
+.top-nav .nav-link img,
+.user-dropdown > li a > img {
+  margin-right: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   .sticky-top .navbar-sticky .nav-link {
     padding: 10px 25px !important;
