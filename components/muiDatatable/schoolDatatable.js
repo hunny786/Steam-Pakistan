@@ -1,139 +1,74 @@
 import React from "react";
 import MUIDataTable from "mui-datatables";
+import ConfirmationModal from "../popups/Confirmation";
 
 const SchoolDatatable = () => {
+    const [modalShow, setModalShow] = React.useState(false);
 
     const columns = [
         {
             name: "name",
-            label: "School Name",
+            label: "Theme",
             options: {
             filter: true,
             sort: false,
             }
         },
         {
-            name: "province",
-            label: "Province",
+            name: "session",
+            label: "Session Held",
             options: {
             filter: false,
             sort: true,
             }
         },
         {
-            name: "type",
-            label: "Type",
+            name: "status",
+            label: "Status",
             options: {
             filter: false,
             sort: true,
             }
         },
         {
-            name: "tier",
-            label: "Tier",
-            options: {
-            filter: true,
-            sort: true,
-            }
-        },
-        {
-            name: "gender",
-            label: "Gender",
-            options: {
-            filter: false,
-            sort: true,
-            }
-        },
-        {
-            name: "emis",
-            label: "EMIS Code",
+            name: "details",
+            label: "Details",
             options: {
             filter: false,
             sort: false,
             }
-        }
+        },
+        {
+            name: "approve",
+            options: {
+            filter: false,
+            sort: false,
+            customHeadLabelRender: (value) => { 
+                console.log(value)
+                return (
+                   <>
+                     <a href='#' onClick={() => setModalShow(true)}><img src='../icons/icon-tick-double.png' /></a>
+                    </>
+                 )
+              }
+            }
+        },
     ];
         
     const data = [
         { 
-            name: "Sideeq Public School Rawalpindi", 
-            province: "Punjab", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '3355221',
+            name: "Math Cricles", 
+            session: "05-June-2022", 
+            status: <span className='text-warning'>District Approval</span>,
+            details: <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>,
+            approve: <a onClick={() => setModalShow(true)} href='#'><img src="../icons/icon-tick.png" /></a>
         },
         { 
-            name: "Peshawar Model High School", 
-            province: "Peshawar", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '31558285',
-        },
-        { 
-            name: "Peshawar Model High School", 
-            province: "Peshawar", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '31558285',
-        },
-        { 
-            name: "Peshawar Model High School", 
-            province: "Peshawar", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '31558285',
-        },
-        { 
-            name: "Sideeq Public School Rawalpindi", 
-            province: "Punjab", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '3355221',
-        },
-        { 
-            name: "Sideeq Public School Rawalpindi", 
-            province: "Punjab", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '3355221',
-        },
-        { 
-            name: "Peshawar Model High School", 
-            province: "Peshawar", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '31558285',
-        },
-        { 
-            name: "Peshawar Model High School", 
-            province: "Peshawar", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '31558285',
-        },
-        { 
-            name: "Peshawar Model High School", 
-            province: "Peshawar", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '31558285',
-        },
-        { 
-            name: "Sideeq Public School Rawalpindi", 
-            province: "Punjab", 
-            type: "Government", 
-            tier: "Secondary", 
-            gender: "Female",
-            emis: '3355221',
+            name: "Arts", 
+            session: "06-June-2022", 
+            status: <span className='text-danger'>Pending</span>,
+            details: <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>,
+            approve: <a onClick={() => setModalShow(true)} href='#'><img src="../icons/icon-tick.png" /></a>
         },
     ];
     
@@ -147,6 +82,10 @@ const SchoolDatatable = () => {
             data={data}
             columns={columns}
             options={options}
+            />
+            <ConfirmationModal
+            show={modalShow}
+            onHide={() => setModalShow(false)}
             />
         </>
         )
