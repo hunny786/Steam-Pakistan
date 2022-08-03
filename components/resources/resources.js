@@ -13,17 +13,17 @@ class ResourcesView extends Component {
                         <div className='wrapper-section'>
                             <div className='row text-center'>
                                 <div className='col-4'>
-                                    <Button type="button" size='lg' className='btn-default'>STEM Club</Button>
+                                    <Button type="button" size='lg' className='btn-default'>STEAM Club</Button>
                                 </div>
                                 <div className='col-4'>
-                                    <Button type="button" size='lg' className='btn-default'>STEM Safeer</Button>
+                                    <Button type="button" size='lg' className='btn-default'>STEAM Safeer</Button>
                                 </div>
                                 <div className='col-4'>
                                     <Button type="button" size='lg' className='btn-default'>Teacher Hub</Button>
                                 </div>
                             </div>
                             <hr className='mt-5' />
-                            <h3 className='sub-heading my-4'>Stem Club</h3>
+                            <h3 className='sub-heading my-4'>STEAM Club</h3>
                             <div className='row'>
                                 <div className='col-4'>
                                     <article>
