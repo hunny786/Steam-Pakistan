@@ -8,11 +8,11 @@ class CarouselView extends Component {
       <Fragment>
         <div id="banner" className="container position-relative">
           <div className={carouselStyles.bannerContent}>
-              <h1 className={carouselStyles.h1}>STEM CLUB</h1>
+              <h1 className={carouselStyles.h1}>STEAM CLUB</h1>
               <p className={carouselStyles.p}>
               Our website is your home to quality-assured, free-to-access
               resources to support the teaching and learning of science,
-              technology, engineering and mathematics (STEM) subjects.
+              technology, engineering and mathematics (STEAM) subjects.
               </p>
           </div>
         </div>

@@ -6,7 +6,7 @@ class PracticalBooks extends Component {
         return (
             <div id='practicals' className='bg-light-grey'>
                 <div className='container py-5'>
-                    <h2 className='heading'>Practical Books</h2>
+                    <h2 className='heading'>STEAM Activity Manuals</h2>
                     <div className='row mt-5'>
                         <div className='col-12 col-sm-4'>
                             <a href="https://drive.google.com/file/d/16eOzdU4aQzDET4V4g5Qr5bQouEXeO0Et/view?usp=sharing" target='_blank' rel='noreferrer' className='d-flex align-items-center justify-content-center justify-content-sm-start mb-5'>

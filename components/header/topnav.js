@@ -2,13 +2,9 @@ import React, { Fragment } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import LoginModal from '../popups/Login';
-import RegisterModal from '../popups/Register';
 import topnavStyles from './topnav.module.css'
 
 function TopNav () {
-    const [modalLoginShow, setModalLoginShow] = React.useState(false);
-    const [modalRegisterShow, setModalRegisterShow] = React.useState(false);
     return (
             <Fragment>
                 <Navbar className={`${topnavStyles.navbarTopnav} top-nav p-0`} expand="lg">
@@ -22,13 +18,13 @@ function TopNav () {
                                 <img src="../../icons/navicons-resources.png" />
                                 Resources
                             </Nav.Link>
-                            <Nav.Link onClick={() => setModalRegisterShow(true)} className={`${topnavStyles.navLink} d-flex align-items-end`} href="#">
+                            <Nav.Link className={`${topnavStyles.navLink} d-flex align-items-end`} href="./Register">
                                 <img src="../../icons/navicons-register.png" />
                                 Register
                             </Nav.Link>
                             <ul className='user-dropdown me-0'>
                                 <li>
-                                    <a onClick={() => setModalLoginShow(true)} className={`${topnavStyles.navLink} d-flex align-items-end m-0`} href="#">
+                                    <a className={`${topnavStyles.navLink} d-flex align-items-end m-0`} href="./Login">
                                         <img src="../../icons/navicons-login.png" />
                                         Login
                                     </a>
@@ -40,14 +36,6 @@ function TopNav () {
                         </Nav>
                     </Container>
                 </Navbar>
-                <LoginModal
-                    show={modalLoginShow}
-                    onHide={() => setModalLoginShow(false)}
-                />
-                <RegisterModal
-                    show={modalRegisterShow}
-                    onHide={() => setModalRegisterShow(false)}
-                />
             </Fragment>
 
     )

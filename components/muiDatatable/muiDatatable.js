@@ -60,7 +60,6 @@ const MuiDataTableView = () => {
             filter: false,
             sort: false,
             customHeadLabelRender: (value) => { 
-                console.log(value)
                 return (
                    <>
                      <a href='#' onClick={() => setModalShow(true)}><img src='../icons/icon-tick-double.png' /></a>
@@ -77,7 +76,7 @@ const MuiDataTableView = () => {
             district: "Rawalpindi", 
             theme: "Math Cricles", 
             date: "05-June-2022", 
-            status: <span className='text-danger'>Pending</span>,
+            status: "<span className='text-danger'>Pending</span>",
             details: <a href='./dashboard/schoolSecondLevel'><img src='../icons/icon-view.png' /></a>,
             approve: <a onClick={() => setModalShow(true)} href='#'><img src="../icons/icon-tick.png" /></a>
         },

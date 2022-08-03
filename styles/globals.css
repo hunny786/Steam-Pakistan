@@ -490,6 +490,47 @@ article a {
   color: #636363;
 }
 
+/*Login/Register Page Css*/
+
+.auth-wrapper {
+  height: 100vh;
+  background: #f7f7f7;
+}
+
+.user-form-wrapper {
+  width: 500px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 11px #d6d6d6;
+}
+
+.user-form-wrapper.register {
+  width: 1140px;
+}
+
+.user-form-wrapper a {
+  color: #1e91fc;
+}
+
+.user-form-wrapper .heading::after {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .user-form-wrapper {
+    width: 100%;
+  }
+  .user-form-wrapper.register {
+    position: unset;
+    transform: translate(0);
+  }
+}
+
 /* Popups */
 
 .modal-content {
@@ -500,18 +541,6 @@ article a {
 .modal-backdrop {
   background-color: #fff;
   opacity: 0.93 !important;
-}
-
-.user-form-wrapper {
-  text-align: center;
-}
-
-.user-form-wrapper a {
-  color: #1e91fc;
-}
-
-.user-form-wrapper .heading::after {
-  display: none;
 }
 
 /*Dashboard Generic Css*/

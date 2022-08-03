@@ -34,13 +34,13 @@ const NavbarView = () => {
                                 Tutorials
                             </Nav.Link>
                             <Nav.Link href="#innovation">
-                                Innovation
+                                Pedagogy
                             </Nav.Link>
                             <Nav.Link href="#guides">
                                 Guides
                             </Nav.Link>
                             <Nav.Link href="#practicals">
-                                Practicals
+                                Manuals
                             </Nav.Link>
                             <Nav.Link href="#contact">
                                 Contact

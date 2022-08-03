@@ -6,8 +6,8 @@ class AboutOurProgram extends Component {
         return (
             <div id='about' className='container py-5'>
                 <h2 className='heading mb-4'>About Our Program</h2>
-                <p>At STEM Learning, our commitment to STEM education is part of everything we do. Whether that’s delivering teacher CPD (continuing professional development) in STEM subjects, bringing STEM role models into schools as part of the STEM Ambassador Programme or providing bespoke, long-term support for groups of schools in collaboration with companies through our ENTHUSE Partnerships, our aim is always the same – to provide a world-leading STEM education for all young people across Pakistan.</p>
-                <p>We don’t do this alone! We work in collaboration with the Pakistan Government, employers large and small, organisations and educational establishments to deliver positive STEM interactions for teachers, young people and beyond.</p>
+                <p>STEAM Pakistan is an initiative of the Ministry of Federal Education and Professional Training (MoFEPT) that aims to advance secondary school-aged girls’ access to science, technology, engineering, arts, and mathematics education in Pakistan.</p>
+                <p>The goal of this initiative is to equip and empower government schools to deliver world class STEAM education by offering back-end technical support and working towards policy reforms which embed the initiative’s learning in the existing state structures.</p>
             </div>
         );
     }

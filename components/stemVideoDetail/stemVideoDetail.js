@@ -1,45 +1,14 @@
 import React, {  Component } from 'react';
-import Slider from "react-slick";
 
 
-class videoTutorial extends Component {
-    constructor(props) {
-        super(props);
-        this.next = this.next.bind(this);
-        this.previous = this.previous.bind(this);
-    }
-    next() {
-    this.slider.slickNext();
-    }
-    previous() {
-    this.slider.slickPrev();
-    }
-
+class StemVideoDetail extends Component {
     render() {
-        const settings = {
-            arrows: false,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                  breakpoint: 768,
-                  settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                  }
-                }
-              ]
-        };
         return (
-            <div id='tutorials' className='bg-light-grey'>
+            <div className='bg-light-grey'>
                 <div className='container py-5 position-relative'>
                     <h2 className='heading mb-5'>How-to Video Tutorials</h2>
-                    <Slider ref={c => (this.slider = c)} {...settings}>
-                        <div className="pe-3" key={1}>
+                    <div className='row mb-0 mb-lg-4'>
+                        <div className='col-lg-4 mb-2 mb-lg-0'>
                             <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/wbPPdgSnN2Q" className='video text-center text-sm-start mb-4'>
                                 <p className='time-stamp'>STEM - 18 May 2022</p>
                                 <div className='thumbnail'>
@@ -50,7 +19,7 @@ class videoTutorial extends Component {
                                 <div className='watch-btn'>Watch <span className='chevron'>›</span></div>
                             </a>
                         </div>
-                        <div className="pe-3" key={2}>
+                        <div className='col-lg-4 mb-2 mb-lg-0'>
                             <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/O1I9yZZAqbE" className='video text-center text-sm-start mb-4'>
                                 <p className='time-stamp'>STEM - 18 May 2022</p>
                                 <div className='thumbnail'>
@@ -61,7 +30,7 @@ class videoTutorial extends Component {
                                 <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
                             </a>
                         </div>
-                        <div className="pe-3" key={3}>
+                        <div className='col-lg-4 mb-2 mb-lg-0'>
                             <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/jMgsLqRTjIk" className='video text-center text-sm-start'>
                                 <p className='time-stamp'>STEM - 18 May 2022</p>
                                 <div className='thumbnail'>
@@ -72,7 +41,9 @@ class videoTutorial extends Component {
                                 <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
                             </a>
                         </div>
-                        <div className="pe-3" key={4}>
+                    </div>
+                    <div className='row'>
+                        <div className='col-lg-4 mb-2 mb-lg-0'>
                             <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/wbPPdgSnN2Q" className='video text-center text-sm-start mb-4'>
                                 <p className='time-stamp'>STEM - 18 May 2022</p>
                                 <div className='thumbnail'>
@@ -83,7 +54,7 @@ class videoTutorial extends Component {
                                 <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
                             </a>
                         </div>
-                        <div className="pe-3" key={5}>
+                        <div className='col-lg-4 mb-2 mb-lg-0'>
                             <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/O1I9yZZAqbE" className='video text-center text-sm-start mb-4'>
                                 <p className='time-stamp'>STEM - 18 May 2022</p>
                                 <div className='thumbnail'>
@@ -94,7 +65,7 @@ class videoTutorial extends Component {
                                 <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
                             </a>
                         </div>
-                        <div className="pe-3" key={6}>
+                        <div className='col-lg-4 mb-2 mb-lg-0'>
                             <a target="_blank" rel="noreferrer" href="https://www.youtube.com/embed/jMgsLqRTjIk" className='video text-center text-sm-start'>
                                 <p className='time-stamp'>STEM - 18 May 2022</p>
                                 <div className='thumbnail'>
@@ -105,23 +76,10 @@ class videoTutorial extends Component {
                                 <div className='watch-btn' >Watch <span className='chevron'>›</span></div>
                             </a>
                         </div>
-                    </Slider>
-                    <div className='d-flex slick-arrows'>
-                        <a href='javascript:void(0)' className='me-2' onClick={this.previous}>
-                            <img src="../../icons/arrrow-left.png"/>
-                        </a>
-                        <a href='javascript:void(0)' onClick={this.next}>
-                            <img src="../../icons/arrrow-right.png"/>
-                        </a>
-                    </div>
-                    <div className='row pt-5'>
-                        <div className='col-12 text-center'>
-                            <a type="button" className="btn btn-outline-dark btn-hollow-dark" href='/StemVideoDetail/' target='_blank' rel='noreferrer'>VIEW ALL</a>
-                        </div>
                     </div>
                 </div>
             </div>
         )
     }
 }
-export default videoTutorial;
+export default StemVideoDetail;
