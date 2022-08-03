@@ -533,6 +533,7 @@ article a {
   .user-form-wrapper.register {
     position: unset;
     transform: translate(0);
+    width: 100%;
   }
 }
 
