@@ -17,7 +17,7 @@ function RegisterModal(props) {
             <h2 className='heading mb-4'>Register</h2>
             <p className='mb-4'>Already have an account? <a href='' className=''>Login</a></p>
             <div className='row'>
-                <div className='col-4'>
+                <div className='col-lg-4 mb-2 mb-lg-0'>
                     <Form.Select className='mb-2' aria-label="Default select example">
                         <option>Select Province</option>
                         <option value="1">One</option>
@@ -44,12 +44,12 @@ function RegisterModal(props) {
                     </Form.Select>
                     <input type='text' className='form-control' placeholder='School Name'></input>
                 </div>
-                <div className='col-4'>
+                <div className='col-lg-4'>
                     <textarea type='text' className='form-control mb-2' rows='5' placeholder='School Address'></textarea>
                     <input type='text' className='form-control mb-2' placeholder='School Enrollment'></input>
                     <input type='text' className='form-control mb-2' placeholder='EMIS Code'></input>
                 </div>
-                <div className='col-4'>
+                <div className='col-lg-4'>
                     <input type='text' className='form-control mb-2' placeholder='Name of Applicant'></input>
                     <input type='text' className='form-control mb-2' placeholder='Designation/Position'></input>
                     <input type='text' className='form-control mb-2' placeholder='Contact Number'></input>
@@ -58,7 +58,7 @@ function RegisterModal(props) {
                 </div>
             </div>
             <div className='row mt-4'>
-              <div className='col-2 offset-5'>
+              <div className='col-lg-2 offset-lg-5'>
                 <div className='d-grid'>
                   <Button type='button' className='btn btn-primary btn-block'>Register</Button>
                 </div>
